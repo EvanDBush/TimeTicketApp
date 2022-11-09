@@ -1,0 +1,17 @@
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Data.deps.json
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Data.runtimeconfig.json
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Data.dll
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Data.pdb
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Domain.dll
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\bin\Debug\net6.0\TimeTicketApp.Domain.pdb
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.csproj.AssemblyReference.cache
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.AssemblyInfoInputs.cache
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.AssemblyInfo.cs
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.csproj.CopyComplete
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.dll
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\refint\TimeTicketApp.Data.dll
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.pdb
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\TimeTicketApp.Data.genruntimeconfig.cache
+C:\Users\Evan Bush\source\repos\TimeTicketApp\TimeTicketApp.Data\obj\Debug\net6.0\ref\TimeTicketApp.Data.dll

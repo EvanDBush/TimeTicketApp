@@ -16,7 +16,7 @@ namespace TimeTicketApp.Domain
 
         public Employee? Employee { get => employee; set => employee = value; }
 
-        public int EmployeeId { get; set; }
+        public Project? Project { get => Project; set => Project = value; }
 
         public DateTime DateTime { get; set; }
     }

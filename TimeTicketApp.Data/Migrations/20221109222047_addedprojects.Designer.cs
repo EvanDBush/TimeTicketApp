@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TimeTicketApp.Data;
 
@@ -10,9 +11,11 @@ using TimeTicketApp.Data;
 namespace TimeTicketApp.Data.Migrations
 {
     [DbContext(typeof(TimeTicketContext))]
-    partial class TimeTicketContextModelSnapshot : ModelSnapshot
+    [Migration("20221109222047_addedprojects")]
+    partial class addedprojects
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
@@ -74,7 +77,7 @@ namespace TimeTicketApp.Data.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("EmployeeId")
+                    b.Property<int>("EmployeeId")
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Hours")
@@ -103,7 +106,9 @@ namespace TimeTicketApp.Data.Migrations
                 {
                     b.HasOne("TimeTicketApp.Domain.Employee", "Employee")
                         .WithMany("TimeTickets")
-                        .HasForeignKey("EmployeeId");
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("TimeTicketApp.Domain.Project", "Project")
                         .WithMany("TimeTickets")

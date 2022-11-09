@@ -10,6 +10,8 @@ namespace TimeTicketApp.Data
         public DbSet<Employee>  Employees { get; set; }
         public DbSet<TimeTicket> TimeTickets { get; set; }
 
+        public DbSet<Project> Projects { get; set; }
+
         public string DbPath { get; set; }
         public TimeTicketContext()
         {

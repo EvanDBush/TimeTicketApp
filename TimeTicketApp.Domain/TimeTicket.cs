@@ -8,16 +8,14 @@ namespace TimeTicketApp.Domain
 {
     public class TimeTicket
     {
-        private Employee? employee;
-
         public int Id { get; set; }
 
         public decimal Hours { get; set; }
 
-        public Employee? Employee { get => employee; set => employee = value; }
+        public Employee? Employee { get; set; }
 
-        public Project? Project { get => Project; set => Project = value; }
+        public Project? Project { get; set; }
 
-        public DateTime DateTime { get; set; }
+        public DateTime? DateTime { get; set; }
     }
 }

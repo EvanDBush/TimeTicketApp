@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTicketApp.Domain", "TimeTicketApp.Domain\TimeTicketApp.Domain.csproj", "{D92C740A-7EA8-44B0-BF23-A94685B29D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.Domain", "TimeTicketApp.Domain\TimeTicketApp.Domain.csproj", "{D92C740A-7EA8-44B0-BF23-A94685B29D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTicketApp.Data", "TimeTicketApp.Data\TimeTicketApp.Data.csproj", "{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.Data", "TimeTicketApp.Data\TimeTicketApp.Data.csproj", "{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTicketApp.UI", "TimeTicketApp.UI\TimeTicketApp.UI.csproj", "{019E407E-F932-499A-8401-5D96089D9F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.UI", "TimeTicketApp.UI\TimeTicketApp.UI.csproj", "{019E407E-F932-499A-8401-5D96089D9F8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098} = {71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}
+		{D92C740A-7EA8-44B0-BF23-A94685B29D21} = {D92C740A-7EA8-44B0-BF23-A94685B29D21}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

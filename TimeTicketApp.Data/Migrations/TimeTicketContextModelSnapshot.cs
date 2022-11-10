@@ -50,7 +50,7 @@ namespace TimeTicketApp.Data.Migrations
 
             modelBuilder.Entity("TimeTicketApp.Domain.Project", b =>
                 {
-                    b.Property<int>("ProjectId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -60,7 +60,7 @@ namespace TimeTicketApp.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("ProjectId");
+                    b.HasKey("Id");
 
                     b.ToTable("Projects");
                 });
@@ -71,7 +71,7 @@ namespace TimeTicketApp.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("DateTime")
+                    b.Property<DateTime?>("DateTime")
                         .HasColumnType("TEXT");
 
                     b.Property<int?>("EmployeeId")

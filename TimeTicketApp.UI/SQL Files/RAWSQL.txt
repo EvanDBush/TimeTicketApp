@@ -1,1 +1,19 @@
-﻿
+﻿Select all projects worked by employee
+
+Select latest project by employee
+
+Select latest timeticket by employee
+
+Select latest timeticket by project
+
+Select TimeTickets for past two weeks by employeeid
+
+Select all TimeTickets by employeeId
+
+Select all paid TimeTickets by employee id 
+
+Select all unpaid tickets by employee id
+
+select all timetickets by project id
+
+select all employees by project id

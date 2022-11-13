@@ -7,11 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.Domain", "Tim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.Data", "TimeTicketApp.Data\TimeTicketApp.Data.csproj", "{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTicketApp.UI", "TimeTicketApp.UI\TimeTicketApp.UI.csproj", "{019E407E-F932-499A-8401-5D96089D9F8C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098} = {71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}
-		{D92C740A-7EA8-44B0-BF23-A94685B29D21} = {D92C740A-7EA8-44B0-BF23-A94685B29D21}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTicketAPI", "TimeTicketAPI\TimeTicketAPI.csproj", "{D3D78071-9BDC-4D74-A2D7-AAE3BA4B0622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +23,10 @@ Global
 		{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71DF2085-C7AC-4622-8E1F-AEFAAAEE8098}.Release|Any CPU.Build.0 = Release|Any CPU
-		{019E407E-F932-499A-8401-5D96089D9F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{019E407E-F932-499A-8401-5D96089D9F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{019E407E-F932-499A-8401-5D96089D9F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{019E407E-F932-499A-8401-5D96089D9F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D78071-9BDC-4D74-A2D7-AAE3BA4B0622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D78071-9BDC-4D74-A2D7-AAE3BA4B0622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D78071-9BDC-4D74-A2D7-AAE3BA4B0622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D78071-9BDC-4D74-A2D7-AAE3BA4B0622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
